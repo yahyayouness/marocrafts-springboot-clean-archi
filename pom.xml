@@ -1,0 +1,24 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	
+	<groupId>com.bnpparibas</groupId>
+	<artifactId>parent-api-credit-conso</artifactId>
+	<packaging>pom</packaging>
+	<version>1.0.0-SNAPSHOT</version>
+	
+	<name>credit-conso-api</name>
+	<description>Parent pom project that contains all microservices of credit-conso</description>
+
+
+	
+
+
+	<modules>
+		<module>credit-conso-api</module>
+		<module>credit-conso-api-impl</module>
+		<module>credit-conso-api-infra-db-jpa</module>
+		<module>credit-conso-api-domain</module>
+		<module>credit-conso-infra-rest-springmvc</module>
+	</modules>
+</project>
